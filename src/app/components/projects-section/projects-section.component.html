@@ -1,0 +1,42 @@
+<!-- <p>projects-section works!</p> -->
+ <div class="">
+
+    <div class="flex justify-center text-white">
+        <span class="text-6xl pt-[290px]"> My Projects Highlights</span>
+    </div>
+    <div class="flex justify-center">
+        <button
+            class="flex text-white mt-[54px] border border-[#FF9142] w-[242px] h-[65px] rounded-[32.5px] justify-center items-center gap-6 outline-none">
+            <p> Explore Works </p> <img src="images/icon.svg">
+        </button>
+    </div>
+ 
+    
+ </div>
+ 
+
+<!-- <app-project-card 
+[title]="'This is title'"
+[clientName]="'name'"
+[workNameOne]="'first Name'"
+[workNameTwo]="'Second Name'"
+[image]="'images/product-card.svg'"
+></app-project-card> -->
+
+
+
+<div class="flex items-center justify-center mt-[79px]">
+    <div class="grid md:grid-cols-2 gap-[27px] p-4">
+        <app-project-card [title]="'This is title'" [clientName]="'name'" [workNameOne]="'first Name'"
+            [workNameTwo]="'Second Name'" [image]="'images/product-card.svg'"></app-project-card>
+        <app-project-card [title]="'This is title'" [clientName]="'name'" [workNameOne]="'first Name'"
+            [workNameTwo]="'Second Name'" [image]="'images/product-card.svg'"></app-project-card>
+        <app-project-card [title]="'This is title'" [clientName]="'name'" [workNameOne]="'first Name'"
+            [workNameTwo]="'Second Name'" [image]="'images/product-card.svg'"></app-project-card>
+        <app-project-card [title]="'This is title'" [clientName]="'name'" [workNameOne]="'first Name'"
+            [workNameTwo]="'Second Name'" [image]="'images/product-card.svg'"></app-project-card>
+    </div>
+</div>
+
+ 
+

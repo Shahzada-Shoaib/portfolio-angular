@@ -1,0 +1,32 @@
+<!-- <p>project-card works!</p> -->
+<div class="md:max-w-[560px] text-white  ">
+    <!-- <img src="favicon.ico"> -->
+    <!-- <img class="rounded-2xl" src="images/product-card.svg"> -->
+    <img class="rounded-2xl" [src]="image">
+
+
+
+    <div class="flex gap-6 my-[32px]">
+    <p class="text-3xl">{{title}}</p> 
+    <!-- <hr class="w-10 mt-4">         -->
+    <hr class="mt-4 border-[#FF9142] w-[48px]">
+    </div>
+
+    <div class="leading-8">
+        <div class="flex gap-8">
+            <p> client: </p>
+            <p>{{clientName}} </p>
+        </div>
+        
+        <div class="flex gap-8 ">
+            <p> Work: </p>
+            <div class="flex gap-4">
+                <p>{{workNameOne}} </p>
+                <p>{{workNameTwo}} </p>
+            </div>
+         
+
+        </div>
+    </div>
+
+</div>
